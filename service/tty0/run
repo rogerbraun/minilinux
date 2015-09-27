@@ -1,0 +1,2 @@
+#!/bin/sh
+exec getty 0 /dev/tty0

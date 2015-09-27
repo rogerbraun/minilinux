@@ -1,0 +1,2 @@
+* Compiled busybox won't resolve
+Seems to be a known problem with libc... Can be solved by recompiling libc.
