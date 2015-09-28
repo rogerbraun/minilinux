@@ -1,2 +1,2 @@
 #!/bin/sh
-exec udhcpc -f -S
+exec udhcpc -f 2>&1

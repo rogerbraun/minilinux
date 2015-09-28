@@ -1,6 +1,7 @@
 #!/bin/sh
-
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
+dmesg -n 1
 
 mountpoint -q /proc || mount -t proc proc /proc -o nosuid,noexec,nodev
 mountpoint -q /sys || mount -t sysfs sys /sys -o nosuid,noexec,nodev
